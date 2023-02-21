@@ -128,7 +128,7 @@ export default function page({ params }) {
                     className='flex items-center space-x-1'
                   >
                     <BiLike />
-                    <span className='text-xs text-blue-600'>{post.likes}</span>
+                    <span className='text-xs text-blue-600'>{post?.likes}</span>
                   </button>
                   <button
                     typeof='submit'
