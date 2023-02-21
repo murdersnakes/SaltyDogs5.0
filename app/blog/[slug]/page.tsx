@@ -303,6 +303,23 @@ export default function page({ params }) {
               </div>
             </div>
           </div>
+
+          <div>
+            <script
+              async
+              src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8320827997099775'
+              crossOrigin='anonymous'
+            ></script>
+            <ins
+              className='adsbygoogle'
+              style={{ display: "block" }}
+              data-ad-client='ca-pub-8320827997099775'
+              data-ad-slot='9587421226'
+              data-ad-format='auto'
+              data-full-width-responsive='true'
+            ></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
         </div>
       </div>
     </div>
