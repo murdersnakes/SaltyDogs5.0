@@ -39,7 +39,7 @@ export default function page({ params }) {
                     <h3 className='p3 font-bold line-clamp-2 group-hover:underline'>
                       {article?.title}
                     </h3>
-                    <p className='p4 line-clamp-2'>
+                    <p className='p4 line-clamp-2 text-neutral-600'>
                       {article?.metaDescription}
                     </p>
                   </Link>
@@ -70,7 +70,7 @@ export default function page({ params }) {
               </div>
             </div>
             <div
-              className='prose'
+              className='prose prose-p:text-neutral-600'
               dangerouslySetInnerHTML={{ __html: `${post?.body}` }}
             />
             <div className='mt-12 flex w-full items-center justify-start space-x-5 text-white border-y py-2'>
@@ -156,7 +156,7 @@ export default function page({ params }) {
                     <span className='font-light'>3d</span>
                   </div>
                   <div>
-                    <p className='p4 mt-4'>
+                    <p className='p4 mt-4 text-neutral-600'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Excepturi sequi, adipisci provident quo saepe eveniet
                       dignissimos sint consequatur obcaecati incidunt mollitia
@@ -193,7 +193,7 @@ export default function page({ params }) {
                               <span className='font-light'>1d</span>
                             </div>
                             <div>
-                              <p className='p4 mt-4'>
+                              <p className='p4 mt-4 text-neutral-600'>
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Excepturi sequi, adipisci
                                 provident quo
@@ -231,7 +231,7 @@ export default function page({ params }) {
                               <span className='font-light'>1d</span>
                             </div>
                             <div>
-                              <p className='p4 mt-4'>
+                              <p className='p4 mt-4 text-neutral-600'>
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Excepturi sequi, adipisci
                                 provident quo
@@ -274,7 +274,7 @@ export default function page({ params }) {
                     <span className='font-light'>9d</span>
                   </div>
                   <div className='mt-4'>
-                    <p className='p4 mt-4'>
+                    <p className='p4 mt-4 text-neutral-600'>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Excepturi sequi, adipisci provident quo saepe eveniet
                       dignissimos sint consequatur obcaecati incidunt mollitia

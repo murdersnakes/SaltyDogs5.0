@@ -7,8 +7,8 @@ export default function page() {
       <div className='cont py-24'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
           <div>
-            <h1 className='h2'>Don&apos;t be a stranger</h1>
-            <p className='p mt-4'>
+            <h1 className='h1'>Don&apos;t be a stranger</h1>
+            <p className='p1 mt-4 text-neutral-600'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam
               autem magnam.
             </p>
