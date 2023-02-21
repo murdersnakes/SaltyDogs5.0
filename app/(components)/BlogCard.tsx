@@ -10,7 +10,7 @@ export default function BlogCard({ post }) {
   return (
     <Link
       href={`/blog/${postTitleSlugified}`}
-      className='relative rounded-lg shadow h-[450px] overflow-hidden group hover:shadow-lg hover:-translate-y-1 transition-transform grad-light'
+      className='relative rounded-lg shadow h-[470px] overflow-hidden group hover:shadow-lg hover:-translate-y-1 transition-transform grad-light'
     >
       <div className='h-1/2 w-full'>
         <Image
@@ -23,8 +23,13 @@ export default function BlogCard({ post }) {
         />
       </div>
       <div className='p-8 h-1/2'>
-        <h3 className='h3 line-clamp-2 group-hover:underline'>{post.title}</h3>
-        <p className='p4 line-clamp-3 text-neutral-600'>{post.metaDescription}</p>
+        <span className='text-xs font-body px-2 py-0.5 rounded-l-full rounded-r-full bg-rose-200 group-hover:bg-rose-300'>
+          {post.category}
+        </span>
+        <h3 className='h3 mt-2 line-clamp-2 group-hover:underline'>{post.title}</h3>
+        <p className='p4 line-clamp-3 text-neutral-600'>
+          {post.metaDescription}
+        </p>
       </div>
     </Link>
   );

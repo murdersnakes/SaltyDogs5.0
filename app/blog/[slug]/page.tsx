@@ -59,12 +59,12 @@ export default function page({ params }) {
                 className='w-full h-full object-cover'
               />
             </div>
-            <div className='flex items-center justify-between border-y py-1 my-2'>
+            <div className='flex items-center justify-between border-y py-1 my-2 text-blue-900'>
               <div className='flex items-center space-x-1 p4'>
                 <BiUserCircle />
                 <span>{post?.author}</span>
               </div>
-              <div className='flex items-center space-x-1 p4'>
+              <div className='flex items-center space-x-1 p4 '>
                 <BiCalendarAlt />
                 <span>{post?.date}</span>
               </div>
