@@ -37,6 +37,11 @@ export default function head() {
       <meta name='format-detection' content='telephone=yes' />
       <meta name='HandheldFriendly' content='true' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+      <script
+        async
+        src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8320827997099775'
+        crossOrigin='anonymous'
+      ></script>
     </>
   );
 }
