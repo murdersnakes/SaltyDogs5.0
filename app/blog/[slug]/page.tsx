@@ -71,7 +71,7 @@ export default function page({ params }) {
             </div>
             <div
               className='prose'
-              dangerouslySetInnerHTML={{ __html: post?.body }}
+              dangerouslySetInnerHTML={{ __html: `${post?.body}` }}
             />
             <div className='mt-12 flex w-full items-center justify-start space-x-5 text-white border-y py-2'>
               <h5 className='h2 text-neutral-800'>Like & Share:</h5>
