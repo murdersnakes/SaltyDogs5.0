@@ -10,7 +10,7 @@ export default function BlogCard({ post }) {
   return (
     <Link
       href={`/blog/${postTitleSlugified}`}
-      className='relative rounded-lg shadow h-[450px] overflow-hidden group hover:shadow-lg hover:-translate-y-1 transition-transform'
+      className='relative rounded-lg shadow h-[450px] overflow-hidden group hover:shadow-lg hover:-translate-y-1 transition-transform grad-light'
     >
       <div className='h-1/2 w-full'>
         <Image

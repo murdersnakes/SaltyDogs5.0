@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className='flex items-center justify-between py-2'>
           <Link
             href='/'
-            className='flex items-center space-x-1 h4 px-3 py-2 rounded hover:bg-neutral-200'
+            className='flex items-center space-x-1 h4 px-3 py-2 rounded hover:grad-light'
           >
             <BiCube />
             <span>SaltyDogs</span>
@@ -18,7 +18,7 @@ export default function Navbar() {
             <li>
               <Link
                 href='/blog'
-                className='flex items-center space-x-1 h4 px-3 py-2 rounded hover:bg-neutral-100'
+                className='flex items-center space-x-1 h4 px-3 py-2 rounded hover:grad-light'
               >
                 <BiAlignJustify />
                 <span>Blog</span>
@@ -27,7 +27,7 @@ export default function Navbar() {
             <li>
               <Link
                 href='/contact'
-                className='flex items-center space-x-1 h4 px-3 py-2 rounded hover:bg-neutral-100'
+                className='flex items-center space-x-1 h4 px-3 py-2 rounded hover:grad-light'
               >
                 <BiPhoneOutgoing />
                 <span>Contact</span>
