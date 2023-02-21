@@ -6,7 +6,7 @@ export default function BlogPostHead({ params }) {
   let post = posts.find(
     (x): boolean =>
       params.slug ==
-      slugify(x.title, { remove: /[*+~.()'"!:@]/g }).toLocaleLowerCase()
+      slugify(x.title, { remove: /[?*+~.()'"!:@]/g }).toLocaleLowerCase()
   );
 
   return (

@@ -5,7 +5,7 @@ import { default as slugify } from "slugify";
 
 export default function BlogCard({ post }) {
 
-    const postTitleSlugified = slugify(post.title, {remove: /[*+~.()'"!:@]/g}).toLocaleLowerCase() 
+    const postTitleSlugified = slugify(post.title, {remove: /[?*+~.()'"!:@]/g}).toLocaleLowerCase() 
   return (
     <Link
       href={`/blog/${postTitleSlugified}`}

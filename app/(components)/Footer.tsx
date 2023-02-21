@@ -14,6 +14,9 @@ export default function Footer() {
             <BiCube />
             <span>SaltyDogs</span>
           </Link>
+          <Link href='/privacy-policy' className='link_1'>
+            Privacy Policy
+          </Link>
           <p className='p3'>
             &copy; {new Date().getFullYear()} All rights reserved
           </p>

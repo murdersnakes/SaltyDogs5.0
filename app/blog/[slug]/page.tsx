@@ -10,7 +10,7 @@ export default function page({ params }) {
   let post = posts.find(
     (x): boolean =>
       params.slug ==
-      slugify(x.title, { remove: /[*+~.()'"!:@]/g }).toLocaleLowerCase()
+      slugify(x.title, { remove: /[?*+~.()'"!:@]/g }).toLocaleLowerCase()
   );
 
   const postListWithoutCurrent = posts.filter(
